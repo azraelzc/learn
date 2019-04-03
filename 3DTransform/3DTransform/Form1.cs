@@ -63,5 +63,9 @@ namespace _3DTransform {
             t.Trasform(m);
             this.Invalidate();
         }
+
+        private void trackBar1_Scroll(object sender, EventArgs e) {
+            m_view[4, 3] = (sender as TrackBar).Value;
+        }
     }
 }
