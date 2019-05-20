@@ -26,6 +26,9 @@
             this.components = new System.ComponentModel.Container();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.trackBar1 = new System.Windows.Forms.TrackBar();
+            this.rotationX = new System.Windows.Forms.CheckBox();
+            this.rotationY = new System.Windows.Forms.CheckBox();
+            this.rotationZ = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,11 +49,47 @@
             this.trackBar1.Value = 250;
             this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
+            // rotationX
+            // 
+            this.rotationX.AutoSize = true;
+            this.rotationX.Location = new System.Drawing.Point(387, 21);
+            this.rotationX.Name = "rotationX";
+            this.rotationX.Size = new System.Drawing.Size(78, 16);
+            this.rotationX.TabIndex = 1;
+            this.rotationX.Text = "rotationX";
+            this.rotationX.UseVisualStyleBackColor = true;
+            this.rotationX.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // rotationY
+            // 
+            this.rotationY.AutoSize = true;
+            this.rotationY.Location = new System.Drawing.Point(387, 49);
+            this.rotationY.Name = "rotationY";
+            this.rotationY.Size = new System.Drawing.Size(78, 16);
+            this.rotationY.TabIndex = 2;
+            this.rotationY.Text = "rotationY";
+            this.rotationY.UseVisualStyleBackColor = true;
+            this.rotationY.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            // 
+            // rotationZ
+            // 
+            this.rotationZ.AutoSize = true;
+            this.rotationZ.Location = new System.Drawing.Point(387, 72);
+            this.rotationZ.Name = "rotationZ";
+            this.rotationZ.Size = new System.Drawing.Size(78, 16);
+            this.rotationZ.TabIndex = 3;
+            this.rotationZ.Text = "rotationZ";
+            this.rotationZ.UseVisualStyleBackColor = true;
+            this.rotationZ.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 562);
+            this.Controls.Add(this.rotationZ);
+            this.Controls.Add(this.rotationY);
+            this.Controls.Add(this.rotationX);
             this.Controls.Add(this.trackBar1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -66,6 +105,9 @@
 
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.TrackBar trackBar1;
+        private System.Windows.Forms.CheckBox rotationX;
+        private System.Windows.Forms.CheckBox rotationY;
+        private System.Windows.Forms.CheckBox rotationZ;
     }
 }
 

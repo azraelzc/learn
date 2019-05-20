@@ -41,6 +41,16 @@ namespace _3DTransform {
             return newV;
         }
 
+        public Matrix4x4 Transpose() {
+            Matrix4x4 m = new Matrix4x4();
+            for(int i = 1; i <= 4 ; i++) {
+                for(int j = 1; j <= 4; j++) {
+                    m[i, j] = this[j, i];
+                }
+            }
+            return m;
+        }
+
         public void Print() {
             StringBuilder s = new StringBuilder();
             for(int w = 1; w <= 4; w++) {
