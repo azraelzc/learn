@@ -11,12 +11,8 @@ using System.Windows.Forms;
 namespace _3DTransform {
     public partial class Form1 : Form {
         Triangle3D t;
-        Matrix4x4 m_scale;
-        Matrix4x4 m_rotationX;
-        Matrix4x4 m_rotationY;
-        Matrix4x4 m_rotationZ;
-        Matrix4x4 m_view;
-        Matrix4x4 m_projection;
+        Cube cube;
+        Matrix4x4 m_scale , m_rotationX, m_rotationY, m_rotationZ, m_view, m_projection;
         int a;
         public Form1 () {
             InitializeComponent();
@@ -42,16 +38,19 @@ namespace _3DTransform {
             m_projection[2, 2] = 1;
             m_projection[3, 3] = 1;
             m_projection[3, 4] = 1.0 / 250;
+
+            cube = new Cube();
         }
 
         private void Form1_Load(object sender, EventArgs e) {
             t = new Triangle3D(new Vector4(0, 0.5, 0, 1), new Vector4(0.5, -0.5, 0, 1), new Vector4(-0.5, -0.5, 0, 1));
-            
-
         }
 
         private void Form1_Paint(object sender, PaintEventArgs e) {
-            t.Draw(e.Graphics);
+            e.Graphics.TranslateTransform(300, 300);
+            //t.Draw(e.Graphics);
+            cube.Draw(e.Graphics,this.line.Checked);
+            label1.Text = t.dot.ToString();
         }
 
         private void timer1_Tick_1(object sender, EventArgs e) {
@@ -92,10 +91,19 @@ namespace _3DTransform {
                 m_rotationZ = m_rotationZ.Mul(tz);
             }
 
-            Matrix4x4 m = m_scale.Mul(m_rotationX).Mul(m_rotationY).Mul(m_rotationZ).Mul(m_view).Mul(m_projection);
-            t.Trasform(m);
+            //lesson10+
+            Matrix4x4 mall = m_rotationX.Mul(m_rotationY).Mul(m_rotationZ);
+            //Matrix4x4 m = m_scale.Mul(m_rotationX).Mul(m_rotationY).Mul(m_rotationZ).Mul(m_view).Mul(m_projection);
+            Matrix4x4 m = m_scale.Mul(mall);
+            //t.CalculateLighting(m, new Vector3(-1,1,-1));
+            cube.CalculateLighting(m, new Vector3(-1, 1, -1));
+            Matrix4x4 mv = m.Mul(m_view);
+            Matrix4x4 mvp = mv.Mul(m_projection);
+            //t.Transform(mvp);
+            cube.Transform(mvp);
             this.Invalidate();
         }
+
 
         private void trackBar1_Scroll(object sender, EventArgs e) {
             m_view[4, 3] = (sender as TrackBar).Value;

@@ -29,6 +29,8 @@
             this.rotationX = new System.Windows.Forms.CheckBox();
             this.rotationY = new System.Windows.Forms.CheckBox();
             this.rotationZ = new System.Windows.Forms.CheckBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.line = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -82,11 +84,32 @@
             this.rotationZ.UseVisualStyleBackColor = true;
             this.rotationZ.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(508, 24);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(41, 12);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "label1";
+            // 
+            // line
+            // 
+            this.line.AutoSize = true;
+            this.line.Location = new System.Drawing.Point(387, 94);
+            this.line.Name = "line";
+            this.line.Size = new System.Drawing.Size(48, 16);
+            this.line.TabIndex = 5;
+            this.line.Text = "line";
+            this.line.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 562);
+            this.Controls.Add(this.line);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.rotationZ);
             this.Controls.Add(this.rotationY);
             this.Controls.Add(this.rotationX);
@@ -108,6 +131,8 @@
         private System.Windows.Forms.CheckBox rotationX;
         private System.Windows.Forms.CheckBox rotationY;
         private System.Windows.Forms.CheckBox rotationZ;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.CheckBox line;
     }
 }
 
