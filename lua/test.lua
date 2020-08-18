@@ -1,9 +1,3 @@
-local l=1
-local x=2
-local y=2
-for i=-l,l do
-	if i ~= 0 then
-		print(x+i,y)
-		print(x,y+i)
-	end
-end
+local s1 = "张聪"
+local s2 = "聪张"
+print(s1<s2)
