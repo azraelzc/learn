@@ -1,0 +1,7 @@
+_ID,_VALUE,ActivationTechnologyLevel:int,ActivationStar:int,AttributeTarget:string[],Type:string[],AttrType:string[],AttrBuffType:string[],AttrNum:obsint[],AttrDes:loc
+ALCHEMY_TECHNOLOGY_BOSS_1,1,80,6,corps,Attribute,PhysicalAttack,Percentage,1000,
+,,,,,,MagicalAttack,Percentage,1000,
+ALCHEMY_TECHNOLOGY_BOSS_2,2,160,8,corps,Attribute,PhysicalAttack,Percentage,1800,
+,,,,,,MagicalAttack,Percentage,1800,
+ALCHEMY_TECHNOLOGY_BOSS_3,3,230,10,corps,Attribute,PhysicalAttack,Percentage,3000,
+,,,,,,MagicalAttack,Percentage,3000,

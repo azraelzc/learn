@@ -1,0 +1,8 @@
+_ID,_VALUE,Acticity:string[],#Name:string[],ShowLevel:int[],OtherShowLevel:string[],UISort:int[]
+RIGHTUP,1,buttonMall,商城,1,None,1
+,,buttonFirstPurchasePackage,首充,1,VIPGreaterThanLevel1,6
+,,buttonSparTreasure,宝物猎人,200,VIPGreaterThanLevel1,5
+,,buttonVipPackage,VIP礼包,200,VIPGreaterThanLevel1,3
+,,buttonSuperMonthCard,至尊月卡,1,None,4
+RIGHTDOWN,2,buttonPopupBag,超值套餐,200,None,1
+,,buttonOnlineReward,在线奖励,1,None,2

@@ -1,0 +1,7 @@
+_ID,_VALUE,#Remark:string,ConditionType:string,StarNub:int[],Param1:int[]
+BATTLE_RESULT_CONDITION_1,1,魔物生命值一定比例以上,MonsterLifeValue,3,80
+,,,,2,50
+BATTLE_RESULT_CONDITION_2,2,魔物存活数量,MonsterSurvival,3,4
+,,,,2,3
+BATTLE_RESULT_CONDITION_3,3,通关时间,BattleTime,3,60
+,,,,2,90

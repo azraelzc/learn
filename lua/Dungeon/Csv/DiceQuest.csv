@@ -1,0 +1,16 @@
+_ID,_VALUE,Type:string,QuestInt:int,DropGroup:id[],#Name:string,NeedLevel:int[],SuperRare:int[],Weight1:int[],Weight2:int[],Weight3:int[],Weight4:int[]
+DICEQUEST_1,1,normal,1,DICE_DAILY_QUEST_NORMAL_1,登录游戏,1,0,1,1,1,1
+DICEQUEST_2,2,normal,6,DICE_DAILY_QUEST_NORMAL_2,任意魔物升星1次,1,0,1,1,1,1
+,,,,DICE_DAILY_QUEST_NORMAL_3,任意装备升级1次,1,0,1,1,1,1
+,,,,DICE_DAILY_QUEST_NORMAL_4,任意宝石升级1次,1,0,1,1,1,1
+,,,,DICE_DAILY_QUEST_NORMAL_5,杂货店购买道具1次,1,0,1,1,1,1
+,,,,DICE_DAILY_QUEST_NORMAL_6,喂食任意魔物1次,1,0,1,1,1,1
+,,,,DICE_DAILY_QUEST_NORMAL_7,召唤师竞技参与1次,1,0,1,1,1,1
+DICEQUEST_3,3,rare,1,DICE_DAILY_QUEST_RARE_1,召唤师竞技取胜3次,33,0,9,5,3,0
+,,,,DICE_DAILY_QUEST_RARE_2,进行孵蛋2次,1,0,9,5,3,0
+,,,,DICE_DAILY_QUEST_RARE_3,购买Zeny5次,1,0,9,5,3,0
+,,,,DICE_DAILY_QUEST_RARE_4,任意使用300黄金波利,1,0,9,5,3,0
+,,,,DICE_DAILY_QUEST_SUPER_RARE_1,召唤师竞技取胜5次,33,1,1,1,1,1
+,,,,DICE_DAILY_QUEST_SUPER_RARE_2,进行孵蛋3次,1,1,1,1,1,1
+,,,,DICE_DAILY_QUEST_SUPER_RARE_3,进行至尊开箱1次,26,1,1,1,1,1
+,,,,DICE_DAILY_QUEST_SUPER_RARE_4,任意使用500黄金波利,1,1,1,1,1,1

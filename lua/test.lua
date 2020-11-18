@@ -1,3 +1,5 @@
-local s1 = "张聪"
-local s2 = "聪张"
-print(s1<s2)
+
+local t = {}
+table.insert(t,nil)
+table.insert(t,"222")
+print(#t,t[1],t[2])

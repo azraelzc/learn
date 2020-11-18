@@ -1,0 +1,4 @@
+_ID,_VALUE,LevelMin:int,LevelMax:int,HeroGroup:int{},BadgeGroup:int,HeroNum:int[],BadgeNum:int[],HeroBadgeNumP:int[],CorpsItemGroup:int,CorpsItemNum:int[],CorpsItemNumP:int[],ItemGroup:int,ItemNum:int[],ItemNumP:int[]
+TREASURE_DROP_GROUP_1,1,1,100,6000#1|6001#1|6002#0,6301,3,7,10,6003,0,100,6004,0,100
+,,,,,,4,6,80,,,,,,
+,,,,,,5,5,10,,,,,,

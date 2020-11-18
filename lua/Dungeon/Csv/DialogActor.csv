@@ -1,0 +1,17 @@
+_ID,_VALUE,NameKey:loc,Emotion:string[],Spine:string[],SpineAnimation:string[],DialogSkinColor:string
+ACTOR_PLAYER,1,LOC_DIALOG_CHARACTER_PLAYER,,,,Blue
+ACTOR_CAPRA,2,LOC_DIALOG_CHARACTER_CAPRA,Idle,Capra_1,Idle,Green
+,,,Cry,Capra_1,Cry,
+,,,Angry,Capra_2,Angry,
+,,,Excited,Capra_2,Excited,
+,,,Happy,Capra_3,Happy,
+,,,Scared,Capra_3,Scared,
+,,,Sinister,Capra_3,Sinister,
+ACTOR_PORING,3,LOC_DIALOG_CHARACTER_PORING,Cry,Poring_1,Cry,Green
+,,,Angry,Poring_1,Angry,
+,,,Excited,Poring_1,Excite,
+,,,Idle,Poring_1,Idle,
+,,,Scared,Poring_1,Scared,
+,,,Sinister,Poring_1,Sinister,
+,,,Happy,Poring_1,Excite,
+ACTOR_NONE,4,LOC_DIALOG_CHARACTER_NONE,,,,Green

@@ -1,0 +1,9 @@
+_ID,_VALUE,ConditionType:string,ConditionParam1:int[],ConditionParam2:int[],ConditionParam3:int[],#Remark:string[]
+TEAM_TOURNAMEN_PARAM_HILL_STONE_REAL_PLUS,1,HillStoneRealPlus,10,2,,希尔原石组队加成
+,,,30,3,,
+TEAM_TOURNAMEN_PARAM_FRUIT_TIMES,6,FruitTimes,3,,,天地树果实次数
+TEAM_TOURNAMEN_PARAM_RUSH_REDUCE_FLOOR,7,RushReduceFloor,10,,,扫荡减层数
+TEAM_TOURNAMEN_PARAM_RUSH_MAX_FLOOR,8,RushMaxFloor,45,,,扫荡最高层
+TEAM_TOURNAMEN_PARAM_IMAGE_ATTR2,9,ImageAttr2,80,,,2人镜像属性
+TEAM_TOURNAMEN_PARAM_IMAGE_ATTR3,10,ImageAttr3,90,,,3人镜像属性
+TEAM_TOURNAMEN_PARAM_BEGIN,11,Begin,1573074000,,,活动最初起始时间

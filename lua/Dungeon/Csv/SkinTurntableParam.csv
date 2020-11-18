@@ -1,0 +1,10 @@
+_ID,_VALUE,ConditionType:string,ConditionParam1:int[],ConditionParam2:int[][],#Remark:string
+SKIN_TURNTABLE_PARAM_1,1,EachDrawLuckyValue,1,,每次抽奖增加幸运值
+SKIN_TURNTABLE_PARAM_2,2,HowMuchLuckyValueIncrease,1,,N点幸运值增加1次稀有权重
+SKIN_TURNTABLE_PARAM_3,3,EveryTimeIncreaseWeight,1,,每次增加稀有权重值
+SKIN_TURNTABLE_PARAM_4,4,LuckyValueCertainlyRare,300,,N点幸运值稀有概率100%
+SKIN_TURNTABLE_PARAM_5,5,TimesReward,5,90001|91001,抽奖次数对应宝箱奖励
+,,,10,90002|91002,
+,,,20,90003|91003|92003,
+,,,40,90004|91004|92004,
+,,,60,90005|91005|92005,

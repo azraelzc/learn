@@ -1,0 +1,11 @@
+_ID,_VALUE,#Name:string,Position:int[][],PetNowNum:int
+PET_TRANSFORM_NUM_1,1,1宠物模型,600#0#550,1
+PET_TRANSFORM_NUM_2,2,2宠物模型,600#0#550,2
+,,,-600#0#-550,
+PET_TRANSFORM_NUM_3,3,3宠物模型,200#0#700,3
+,,,-900#0#-400,
+,,,1000#0#-700,
+PET_TRANSFORM_NUM_4,4,4宠物模型,500#0#900,4
+,,,-800#0#0,
+,,,1200#0#-200,
+,,,-250#0#-1200,

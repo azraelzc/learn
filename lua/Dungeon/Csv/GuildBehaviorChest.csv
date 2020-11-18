@@ -1,0 +1,6 @@
+_ID,_VALUE,BehaviorType:string,#Desc:string,ContriBution:int,ContriBution_Max:int,Other:int,#OtherRemarks:string
+GUILD_CHEST_CHECKLN,1,CheckIn,签到获得贡献/1次,100,100,30,签到生效次数上限
+GUILD_CHEST_TEAMTRIAL,2,TeamTrial,组队试炼获得贡献/1层,0,0,0,ContriBution机器人，other是真人
+GUILD_CHEST_SPORTS,3,GuildSports,公会竞技/1场,50,200,1,每场增加
+GUILD_CHEST_CONSUME,4,Consume,消费水晶/5水晶,1,1000,1,消耗水晶*ContriBution/other
+GUILD_CHEST_MVP,5,GuildMVP,公会MVP试炼,50,200,1,每场增加

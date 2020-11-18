@@ -1,0 +1,5 @@
+_ID,_VALUE,Type:int,StartTime:int,EndTime:int,Reward1:int[],Num1:int[],Reward2:int[],Num2:int[],Reward3:int[],Num3:int[],Reward4:int[],Num4:int[],TimesRequire:int[]
+SUPER_BOX_ACTIVITY_1,1,1000,1538168400,1569704400,1001,1,1002,1,0,0,0,0,5
+,,,,,1001,2,1002,2,1003,2,0,0,10
+,,,,,1001,3,1002,3,1003,3,1004,3,15
+,,,,,1001,4,1002,4,1003,4,1004,4,20

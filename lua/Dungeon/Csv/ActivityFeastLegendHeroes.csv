@@ -1,0 +1,13 @@
+_ID,_VALUE,#Name:string,NameKey:loc,Des1Key:loc,Des2Key:loc,UISpriteHeroName:string,UISpriteTitleName:string
+ACTIVITY_FEAST_VALKYRIE,1,瓦尔基里,,,,Cut-in_Full_Valkyrie,Activity_Feast_Title_Valkyrie
+ACTIVITY_FEAST_GRIZZLY,2,格瑞兹,,,,Cut-in_Full_Grizzly,Activity_Feast_Title_Grizzly
+ACTIVITY_FEAST_TIMPLANE,3,蒂姆战机,,,,Cut-in_Full_Timplane,Activity_Feast_Title_Timplane
+ACTIVITY_FEAST_SERPENT,4,白莲,,,,Cut-in_Full_Serpent,Activity_Feast_Title_Serpent
+ACTIVITY_FEAST_DEEYA,5,迪雅,,,,Cut-in_Full_Deeya,Activity_Feast_Title_Deeya
+ACTIVITY_FEAST_DESTROYER,6,破坏者,,,,Cut-in_Full_Destroyer,Activity_Feast_Title_Destroyer
+ACTIVITY_FEAST_FURLA,7,芙拉,,,,Cut-in_Full_Furla,Activity_Feast_Title_Furla
+ACTIVITY_FEAST_EMPEROR,8,恩派尔,,,,Cut-in_Full_Emperor,Activity_Feast_Title_Emperor
+ACTIVITY_FEAST_ANGELA,9,安吉拉,,,,Cut-in_Full_Angela,Activity_Feast_Title_Angela
+ACTIVITY_FEAST_MADIER,10,魅黛尔,,,,Cut-in_Full_Madier,Activity_Feast_Title_Madier
+ACTIVITY_FEAST_WUYING,11,悟影,,,,Cut-in_Full_Wuying,Activity_Feast_Title_Wuying
+ACTIVITY_FEAST_CASHMO,12,科什莫,,,,Cut-in_Full_Cashmo,Activity_Feast_Title_Cashmo

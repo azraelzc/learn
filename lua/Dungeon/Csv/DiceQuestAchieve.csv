@@ -1,0 +1,9 @@
+_ID,_VALUE,Type:string,QuestInt:int,DropGroup:id[],#Name:string,NeedLevel:int[],SuperRare:int[],Weight1:int[],Weight2:int[],Weight3:int[],Weight4:int[]
+DICEQUEST_ACHIEVE_1,1,rare,1,DICE_DAILY_ACHIEVE_QUEST_RARE_1,召唤师竞技取胜3次,33,0,9,5,3,0
+,,,,DICE_DAILY_ACHIEVE_QUEST_RARE_2,进行孵蛋2次,1,0,9,5,3,0
+,,,,DICE_DAILY_ACHIEVE_QUEST_RARE_3,购买Zeny5次,1,0,9,5,3,0
+,,,,DICE_DAILY_ACHIEVE_QUEST_RARE_4,任意使用300黄金波利,1,0,9,5,3,0
+,,,,DICE_DAILY_ACHIEVE_QUEST_SUPER_RARE_1,召唤师竞技取胜5次,33,1,1,1,1,1
+,,,,DICE_DAILY_ACHIEVE_QUEST_SUPER_RARE_2,进行孵蛋3次,1,1,1,1,1,1
+,,,,DICE_DAILY_ACHIEVE_QUEST_SUPER_RARE_3,进行至尊开箱1次,26,1,1,1,1,1
+,,,,DICE_DAILY_ACHIEVE_QUEST_SUPER_RARE_4,任意使用500黄金波利,1,1,1,1,1,1

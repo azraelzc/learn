@@ -1,0 +1,16 @@
+_ID,_VALUE,ConditionType:string,ConditionParam1:int[],#Remark:string,Conditionparam2:int[],#Remark2:string
+PINNACLE_ARENA_WEEKLY_BOX1,1,Box1Reward,7300001,宝箱奖励1,3,胜利场次数
+,,,7300101,,,
+,,,7300201,,,
+PINNACLE_ARENA_WEEKLY_BOX2,2,Box2Reward,7300002,宝箱奖励2,5,胜利场次数
+,,,7300102,,,
+,,,7300202,,,
+PINNACLE_ARENA_WEEKLY_BOX3,3,Box3Reward,7300003,宝箱奖励3,10,胜利场次数
+,,,7300103,,,
+,,,7300203,,,
+PINNACLE_ARENA_WEEKLY_BOX4,4,Box4Reward,7300004,宝箱奖励4,20,胜利场次数
+,,,7300104,,,
+,,,7300204,,,
+PINNACLE_ARENA_WEEKLY_BOX5,5,Box5Reward,7300005,宝箱奖励5,30,胜利场次数
+,,,7300105,,,
+,,,7300205,,,

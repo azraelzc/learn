@@ -1,0 +1,5 @@
+_ID,_VALUE,Percentage:int,PlayerLevelRequire:int,Item:id[],ItemNum:int[],Weight:int[],LevelMin:int[],LevelMax:int[],Price:int[]
+TREASURE_FIRSTDRAW,1,,,HERO_ALICE,1,11,,,
+TREASURE_DOUBLE_ITEM,2,7,1,,,,,,
+TREASURE_HALFPRICE,3,2,1,,,,,,
+TREASURE_GREAT_ITEM,4,3,1,ITEM_OPTIONAL_S_HERO_PACKAGE,1,1,1,100,1500

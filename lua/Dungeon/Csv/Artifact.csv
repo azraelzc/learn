@@ -1,0 +1,6 @@
+_ID,_VALUE,Name:loc,Intro:loc,StrengthenConsume:id,Attribute:id,Model:string,SFX1:string,SFX2:string,Sort:int,Icon:string,AniRotaY:decimal,AniOffsetX:decimal,AniOffsetY:decimal,AniOffsetZ:decimal
+ARTIFACT_MJOLNIR,101,LOC_ARTIFACT_NAME_1,LOC_ARTIFACT_DES_1,ARTIFACT_STRENGTHEN_1,ARTIFACT_ATTRIBUTE_1,Mjolnir,Mjolnir_Evolve_1,Mjolnir_Evolve_2,2,Icon_Artifact_Mjolnir,0,4,-16,-4
+ARTIFACT_SLEIPNIR,102,LOC_ARTIFACT_NAME_2,LOC_ARTIFACT_DES_2,ARTIFACT_STRENGTHEN_2,ARTIFACT_ATTRIBUTE_2,Sleipnir,Sleipnir_Evolve_1,Sleipnir_Evolve_2,3,Icon_Artifact_Sleipnir,0,0,0,0
+ARTIFACT_BRYSINGGAME,103,LOC_ARTIFACT_NAME_3,LOC_ARTIFACT_DES_3,ARTIFACT_STRENGTHEN_3,ARTIFACT_ATTRIBUTE_3,Brysinggamen,Brysinggamen_Evolve_1,Brysinggamen_Evolve_2,4,Icon_Artifact_Brysinggamen,40,0,0,0
+ARTIFACT_MAGINGIORDE,104,LOC_ARTIFACT_NAME_4,LOC_ARTIFACT_DES_4,ARTIFACT_STRENGTHEN_4,ARTIFACT_ATTRIBUTE_4,Magingiorde,Magingiorde_Evolve_1,Magingiorde_Evolve_2,5,Icon_Artifact_Magingiorde,45,0,0,0
+ARTIFACT_HELM_OF_SUN,201,LOC_ARTIFACT_NAME_5,LOC_ARTIFACT_DES_5,ARTIFACT_STRENGTHEN_101,ARTIFACT_ATTRIBUTE_101,Helm_Of_Sun,Helm_Of_Sun_Evolve_1,Helm_Of_Sun_Evolve_2,1,Icon_Artifact_Helm_Of_Sun,45,7,0,-1

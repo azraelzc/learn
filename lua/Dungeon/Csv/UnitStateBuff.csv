@@ -1,0 +1,12 @@
+_ID,_VALUE,#Name:string,BuffType:string,Lv:int[],#Parameter1Name:string,Parameter1:decimal[],#Parameter2Name:string,Parameter2:decimal[],#Parameter3Name:string,Parameter3:decimal[]
+UNIT_STATE_BUFF_NONE,100,,None,1,,0,,0,,0
+UNIT_STATE_BUFF_SPUTTERINGATTACK,101,,SputteringAttack,1,,0,,0,,0
+UNIT_STATE_BUFF_DARK,102,黑暗瞬间,Dark,1,,0,,0,,0
+UNIT_STATE_BUFF_SLIENCE,103,沉默,Silence,1,,0,,0,,0
+UNIT_STATE_BUFF_VAMPIRE,104,吸血,Vampire,1,吸血的百分比,0.4,,0,,0
+UNIT_STATE_BUFF_REBORN,105,每秒恢复自身血量,Reborn,1,恢复生命上限百分比,0.1,,0,,0
+UNIT_STATE_BUFF_ATKTODARK,106,攻击使对方获得黑暗,AtkToDark,1,获得黑暗瞬间的概率/千分比,500,对方黑暗瞬间的等级,1,,0
+UNIT_STATE_BUFF_ATKTOSLIENCE,107,攻击使对方获得沉默,AtkToSilence,1,获得沉默的概率/千分比,500,,0,,0
+UNIT_STATE_BUFF_ATKTOSEALSKILL,108,攻击使对方获得封技,AtkToSealSkill,1,获得封技的概率/千分比,500,,0,,0
+UNIT_STATE_BUFF_SHIELD,109,护盾,Shield,1,护盾为血量上限的百分比,0.2,,0,,0
+UNIT_STATE_BUFF_GETSHIELD,110,被攻击概率获得护盾,GetShield,1,获得护盾的概率/千分比,200,护盾为血量上限的百分比,0.2,,0

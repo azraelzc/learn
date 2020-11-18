@@ -1,0 +1,15 @@
+_ID,_VALUE,ConditionType:string,ConditionParam1:int{},ConditionParamAdditional:int{},AdditionalOpenTime:int,AdditionalCloseTime:int,#Remark:string
+SUPREME_PRIVILEGE_REWARD_DROP,1,RewardDrop,5001|5002|5003|5004,,,,赠送道具掉落
+SUPREME_PRIVILEGE_EXTRA_ENERGY,2,ExtraEnergy,12,,,,额外体力值
+SUPREME_PRIVILEGE_GIFT_DROP,3,GiftDrop,5101|5102,5105,1590076800,1590163200,6元礼包掉落
+SUPREME_PRIVILEGE_CRUSADE_POWER,4,CrusadePower,100,,,,宝藏战力匹配百分比
+SUPREME_PRIVILEGE_GIFT_TIER,5,GiftTier,1,,,,礼包档位
+SUPREME_PRIVILEGE_ATTACK_ON_EXTRA_TIMES,6,AttackOnExtraTimes,1,,,,额外雇佣猫挑战次数
+SUPREME_PRIVILEGE_DOUBLE_CARD_ATTACK_ON_EXTRA_TIMES,7,DoubleCardAttackOnExtraTimes,0,,,,双卡额外雇佣猫挑战次数
+SUPREME_PRIVILEGE_ONHOOK_REWARD_BONUS,8,OnhookBonus,20,,,,挂机金币和魔魂掉落增益百分比
+SUPREME_PRIVILEGE_GOD_GUARDIAN_EXTRA_TIMES,9,GodGuardianExtraTimes,1,,,,特典月卡神之守护兽次数
+SUPREME_PRIVILEGE_DAILY_REWARD_ITEM,10,DailyRewardItem,50003|3,,,,特典月卡每日邮件奖励道具value
+SUPREME_PRIVILEGE_DOUBLE_CARD_GOD_GUARDIAN_EXTRA_TIMES,11,DoubleCardGodGuardianExtraTimes,1,,,,双月卡神之守护兽次数
+SUPREME_PRIVILEGE_DOUBLE_CARD_MVP_TRAIL_RANK_REWARD_BONUS,12,DoubleCardMVPTrailRankRewardBonus,10,,,,双月卡MVP试炼排名产出增益百分比
+SUPREME_PRIVILEGE_LOTTERY_POINT_EXTRA_TIMES,13,LotteryPointExtraTimes,1,,,,特典月卡积分抽卡额外增加次数
+SUPREME_PRIVILEGE_MONTH_CARD_DAILY_CRYSTAL,999,MonthCardDailyCrystal,120,,,,普通月卡每日赠送水晶数量

@@ -1,0 +1,7 @@
+_ID,_VALUE,NameKey:id,Literal:string,UiIcon:string
+CAMP_TYPE_NONE,1,,,ui_missing
+CAMP_TYPE_SCISSORS,2,LOC_CAMP_SCISSORS,Scissors,icon_type_horse_green
+CAMP_TYPE_ROCK,3,LOC_CAMP_ROCK,Rock,icon_type_cold_blue
+CAMP_TYPE_PAPER,4,LOC_CAMP_PAPER,Paper,icon_type_heat_red
+CAMP_TYPE_WHITE,5,LOC_CAMP_WHITE,White,icon_type_white
+CAMP_TYPE_BLACK,6,LOC_CAMP_BLACK,Black,icon_type_black

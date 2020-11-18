@@ -1,0 +1,16 @@
+_ID,_VALUE,ConditionType:string,ConditionParam1:int[],ConditionParam2:int[],ConditionParam3:loc[],#Remark:string,CurrencyReward1:id[],CurrencyRewardNum1:int[],CurrencyReward2:id[],CurrencyRewardNum2:int[],CurrencyReward3:id[],CurrencyRewardNum3:int[],CurrencyReward4:id[],CurrencyRewardNum4:int[]
+DUNGEON_PARAM_NORMALENTER,2,NormalEnter,85,,,普通怪物进入等级条件,None,0,None,0,None,0,None,0
+DUNGEON_PARAM_HARDENTER,3,HardEnter,175,,,地狱怪物进入等级条件,None,0,None,0,None,0,None,0
+DUNGEON_PARAM_DRAGON_BALL_RED,4,DragonBallRed,10,,,龙珠红消耗数量,None,0,None,0,None,0,None,0
+DUNGEON_PARAM_DRAGON_BALL_YELLOW,5,DragonBallYellow,10,,,龙珠黄消耗数量,None,0,None,0,None,0,None,0
+DUNGEON_PARAM_DRAGON_BALL_BLUE,6,DragonBallBlue,10,,,龙珠蓝消耗数量,None,0,None,0,None,0,None,0
+DUNGEON_PARAM_BATTLE_REWARD,7,BattleReward,,9000,,战后奖励,None,0,None,0,None,0,None,0
+DUNGEON_PARAM_ELITE_RESET_NORMAL,8,EliteNormal,2,,,普通成重置5层,None,0,None,0,None,0,None,0
+DUNGEON_PARAM_ELITE_RESET_HARD,9,EliteHard,2,,,地狱成重置5层,None,0,None,0,None,0,None,0
+DUNGEON_PARAM_ELITE_RESET_VIP_NORMAL,10,EliteVipNormal,1,,,VIP普通成重置5层,None,0,None,0,None,0,None,0
+DUNGEON_PARAM_ELITE_RESET_VIP_HARD,11,EliteVipHard,1,,,VIP地狱成重置5层,None,0,None,0,None,0,None,0
+DUNGEON_PARAM_CURRENCY_NEW_REWARD,12,CurrencyRewardNormal,1,20,LOC_DUNGEON_START_FLOOR_NORMAL_TIP,当月主题才会出现的奖励普通难度,ITEM_EXCLUSIVE_AMETHYST,25,ITEM_CRYSTAL,15,None,0,None,0
+,,,21,40,LOC_DUNGEON_START_FLOOR_HELL_TIP,,ITEM_EXCLUSIVE_AMETHYST,25,ITEM_CRYSTAL,15,None,0,None,0
+DUNGEON_PARAM_ATTACK_TOKEN,14,AttackToken,1,,,出击令消耗,None,0,None,0,None,0,None,0
+DUNGEON_PARAM_CURRENCY_USED_REWARD,15,UsedRewardNormal,1,20,LOC_DUNGEON_START_FLOOR_NORMAL_TIP,当月主题才会出现的奖励普通难度,ITEM_EXCLUSIVE_AMETHYST,50,ITEM_CRYSTAL,30,None,0,None,0
+DUNGEON_PARAM_USED_NORMALENTER,16,UsedNormalEnter,50,,,历史迷宫普通怪物进入等级条件,None,0,None,0,None,0,None,0

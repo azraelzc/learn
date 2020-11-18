@@ -1,0 +1,13 @@
+_ID,_VALUE,LoadingPic:string,Text:loc[],TextCancealTyep:string[],TextCancealParam:int[]
+LOADING_TEXT_HERO_EMPEROR,2,124,,VipLevelConceal,7
+,,,,VipLevelConceal,7
+,,,,DayConceal,0
+LOADING_TEXT_HERO_WUYING,3,131,,DayConceal,7
+,,,,DayConceal,7
+,,,,DayConceal,7
+LOADING_TEXT_HERO_SERPENT,4,120,,VipLevelConceal,0
+,,,,VipLevelConceal,0
+,,,,VipLevelConceal,0
+LOADING_TEXT_PAN_LOADING_5,5,PAN_Loading_5,,VipLevelConceal,15
+,,,,VipLevelConceal,15
+,,,,VipLevelConceal,15

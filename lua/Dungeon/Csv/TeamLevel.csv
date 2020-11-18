@@ -1,0 +1,2 @@
+_ID,_VALUE,Room_ID:int,Player_Limit_from:int,Player_Limit_to:int
+TEAMLEVEL_1,1,1,2,2

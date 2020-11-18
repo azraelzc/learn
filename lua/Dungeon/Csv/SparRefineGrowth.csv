@@ -1,0 +1,11 @@
+_ID,_VALUE,Level:int[],SparCostNum:obsint[],SparStrengPercent:obsint[],AttributeGrowth:obsint[]
+SPAR_REFINE_GROWTH_1,1,1,1,50,3000
+,,2,1,100,6000
+,,3,2,150,9000
+,,4,2,200,12000
+,,5,3,250,15000
+,,6,3,300,18000
+,,7,4,350,21000
+,,8,4,400,24000
+,,9,5,450,27000
+,,10,5,500,30000

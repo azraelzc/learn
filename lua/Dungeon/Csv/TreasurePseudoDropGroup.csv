@@ -1,0 +1,3 @@
+_ID,_VALUE,GroupID:int,TimeFrom:int[],TimeTo:int[],HaveHero:id[],HaveHeroName:string,DropHero:id[],DropHeroName:string,ReviseRate:int[]
+CJ_GROUP_1,1,6101,1,3,HERO_ALICE,朵茜,HERO_ALICE,朵茜,0
+CJ_GROUP_2,2,6102,1,3,HERO_ALICE,朵茜,HERO_ALICE,朵茜,-49

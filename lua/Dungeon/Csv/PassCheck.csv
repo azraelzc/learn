@@ -1,0 +1,16 @@
+_ID,_VALUE,ConditionType:string,ConditionParam1:int[],ConditionParam2:int[],#Remark:string
+PASS_CHECK_RECHARGE_TIER,1,RechargeTier,1,,通行证充值档位
+PASS_CHECK_DISPLAY_TIME,2,DisplayTime,7,,N天之后显示
+PASS_CHECK_FREE_GIFT_PACKAGE,3,FreeGiftPackage,30001,,免费礼包掉落
+,,,30002,,
+PASS_CHECK_SUPREME_GIFT_DROP,4,SupremeGiftDrop,5103,,至尊月卡额外掉落
+PASS_CHECK_GP_REWARD,5,GPReward,50,2500,爬塔层数对应GP数量
+,,,75,2500,
+,,,100,3000,
+,,,125,3000,
+,,,150,3500,
+,,,175,3500,
+,,,200,5000,
+,,,225,5000,
+,,,250,7500,
+,,,275,10000,

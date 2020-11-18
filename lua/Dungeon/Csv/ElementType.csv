@@ -1,0 +1,7 @@
+_ID,_VALUE,NameKey:loc,Literal:string,UiIcon:string,InstituteCeremonyIcon:string,BitValue:int
+ELEMENT_TYPE_FIRE,1,LOC_PAN_PET_TYPE_FIRE,Fire,icon_type_fire,icon_type_fire_2_disable,1
+ELEMENT_TYPE_WATER,2,LOC_PAN_PET_TYPE_WATER,Water,icon_type_water,icon_type_water_2_disable,2
+ELEMENT_TYPE_WIND,3,LOC_PAN_PET_TYPE_WIND,Wind,icon_type_wind,icon_type_wind_2_disable,4
+ELEMENT_TYPE_EARTH,4,LOC_PAN_PET_TYPE_EARTH,Earth,icon_type_earth,icon_type_earth_2_disable,8
+ELEMENT_TYPE_DARK,5,LOC_PAN_PET_TYPE_DARK,Dark,icon_type_shadow,icon_type_shadow_2_disable,16
+ELEMENT_TYPE_HOLY,6,LOC_PAN_PET_TYPE_HOLY,Holy,icon_type_light,icon_type_light_2_disable,32

@@ -1,0 +1,6 @@
+_ID,_VALUE,NameKey:loc,Literal:string,FrameSprite:string,IconBgSprite:string,UiIcon:string,UiIconSmall:string,UiIconSmall2:string,ColorBg:string,ColorName:string,ColorBgGray:string,ColorNameGray:string,BgSprite:string,IconLevelBg:string
+RANK_TYPE_SP,2,LOC_RANK_TYPE_SS,SP,icon_HeroIconPad_Orange,icon_HeroIconPad_Orange02,TXT_Rank_SP,TXT_Rank_SP_Small,TXT_Rank_SS_Small2,#FFD65E,#EF7600,#7D7D7D,#BDBDBD,CARD_MONSTER_RANk_SS,icon_LevelPad_Orange
+RANK_TYPE_B,3,LOC_RANK_TYPE_B,B,icon_HeroIconPad_Green,icon_HeroIconPad_Green02,TXT_Rank_B,TXT_Rank_B_Small,TXT_Rank_B_Small2,#91EF8E,#00B226,#7D7D7D,#BDBDBD,CARD_MONSTER_RANk_B,icon_LevelPad_Green
+RANK_TYPE_A,4,LOC_RANK_TYPE_A,A,icon_HeroIconPad_Blue,icon_HeroIconPad_Blue02,TXT_Rank_A,TXT_Rank_A_Small,TXT_Rank_A_Small2,#90BDFF,#0166FF,#7D7D7D,#BDBDBD,CARD_MONSTER_RANk_A,icon_LevelPad_Blue
+RANK_TYPE_S,5,LOC_RANK_TYPE_S,S,icon_HeroIconPad_Purple,icon_HeroIconPad_Purple02,TXT_Rank_S,TXT_Rank_S_Small,TXT_Rank_S_Small2,#D792FF,#BF00FE,#7D7D7D,#BDBDBD,CARD_MONSTER_RANk_S,icon_LevelPad_Purple
+RANK_TYPE_SS,6,LOC_RANK_TYPE_SS,SS,icon_HeroIconPad_Orange,icon_HeroIconPad_Orange02,TXT_Rank_SS,TXT_Rank_SS_Small,TXT_Rank_SS_Small2,#FFD65E,#EF7600,#7D7D7D,#BDBDBD,CARD_MONSTER_RANk_SS,icon_LevelPad_Orange

@@ -1,0 +1,11 @@
+_ID,_VALUE,AdPrefab:string,#Name:string[],ShowLevel:int[]
+LOTTERY_1,1,27,死灵圣骑蚁后,5
+LOTTERY_2,2,13,虎王皮里恩,5
+BLACK_MARKET_1,3,14,德古拉,5
+LOGIN_REWARD,4,4,登录奖励,5
+GIFTBOX_1,5,5,充值礼包,5
+SPECIAL_DROP,6,6,特殊掉落,5
+LOTTERY_3,7,7,精选池3,5
+MONSTER_EXCHANGE_1,8,8,魔物兑换,5
+LOTTERY_4,9,9,精选池4,5
+WORLD_BOSS_1,10,15,世界MVP_1,5
