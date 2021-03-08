@@ -1,5 +1,4 @@
-
-local t = {}
-table.insert(t,nil)
-table.insert(t,"222")
-print(#t,t[1],t[2])
+local c = 10234234
+local a = 0.1
+local b = 2.5
+print(c%(b-a+1))
